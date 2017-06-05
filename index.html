@@ -92,16 +92,16 @@
                 return {
                     fillColor: 'orange',
                     weight: 5,
-                    fillOpacity: 0.1,
+                    fillOpacity: 1,
                     color: 'white',
                     dashArray: 3,
-                    opacity: 1,
+                    opacity: 0.6,
                 }
             };
             // 101 Додаємо шар областей
             regionLayer = L.geoJson(reg, {
                 style: regStyle,
-                
+
             }).addTo(map)
             // 106 Правило відображення шару областей на різних рівнях зближення
 
